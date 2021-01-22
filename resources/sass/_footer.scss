@@ -1,0 +1,151 @@
+
+#footer {
+	background: #1b3e7b;
+	color: #FFF;
+
+	.footer-top {
+		padding-top: 130px;
+		
+		.links {
+
+			.item-link {
+				margin-bottom: 15px;
+			
+				h3 {
+					font-size: 18px;
+					font-weight: 400;
+					font-family: 'Montserrat', sans-serif;
+					margin-bottom: 10px;
+					padding: 0;
+				}
+
+				h5 {
+					font-size: 14px;
+				}
+
+				p {
+					font-size: 14px;
+					font-weight: 300;
+					line-height: 25px;
+				}
+
+				ul {
+					padding: 0;
+					margin: 0;
+
+					li {
+						list-style: none;
+					}
+
+				}
+
+
+				.info {
+					font-weight: 300;
+					font-size: 16px;
+					font-style: italic;
+				}
+
+
+				.form-newsletter {
+					margin-bottom: 30px;
+
+					form {
+
+						input {
+							width: 20em;
+							margin: 0;
+							border: 0;
+							border-radius: 2px;
+							font-size: 16px;
+							line-height: 1em;
+							height: 1.5em;
+							box-sizing: content-box;
+							padding: 10px;
+						}
+
+						button {
+							background: #808285;
+							margin: 0;
+							border: 0;
+							border-radius: 2px;
+							font-size: 16px;
+							line-height: 1em;
+							height: 1.5em;
+							box-sizing: content-box;
+							padding: 10px 20px;
+						}
+
+					}
+
+				}
+
+				.social {
+
+					> li {
+						padding: 0;
+						margin-right: 10px;
+						display: inline-block;
+
+						a {
+							
+													
+							i {
+								height: 30px;
+								width: 30px;
+								border-radius: 50%;
+								background-color: #fff;
+								line-height: 32px;
+								color: #2f358f;
+								font-size: 16px;
+								position: relative;
+								text-align: center;
+								-webkit-transition: 0.5s ease-in-out;
+								-o-transition: 0.5s ease-in-out;
+								transition: 0.5s ease-in-out;
+							}
+
+						    &:hover i {
+								background-color: #808285;
+								color: #fff;
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+
+	}
+
+	.bottom-footer {
+		background: #0d0d0d;
+	    padding: 10px 20px;
+	    color: #fff;
+	    height: 100%;
+	    opacity: 0.5;
+
+		p {
+			margin: 0;
+			font-size: 14px;
+		}
+
+		.copy {
+			float: left;
+		}
+
+		.dev {
+			float: right;
+			text-align: right;
+
+
+		}
+
+	}
+	
+}
